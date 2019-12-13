@@ -10,7 +10,7 @@ class stack:
     def push(self,item):
         self.items.append(item)
     def pop(self):
-        self.items.pop()
+        return self.items.pop()
     def is_empty(self):
         return self.items == []
     def peek(self):
