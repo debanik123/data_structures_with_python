@@ -4,7 +4,7 @@
 # In[20]:
 
 
-class stack:
+class stack():
     def __init__(self):
         self.items = []
     def push(self,item):
